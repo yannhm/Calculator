@@ -1,0 +1,60 @@
+* {
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: wheat;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color:white;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+th {
+  background-color: Gainsboro;
+}
+
+.result {
+  display: flex;
+  background-color: grey;
+  position: relative;
+  height: 60px;
+  box-shadow: 2px ;
+}
+
+tr {
+  margin: 2px;
+}
+
+.operations-orange {
+  background-color: orange;
+}
+
+.main-table {
+  width: 100%;
+  height: 300px;
+  box-shadow: 2px 5px 8px;
+}
+
+.main {
+  width: 300px;
+}
+
+th:hover {
+  background-color: grey;
+}
+
+.operations-orange:hover {
+  background-color: grey;
+  color: orange;
+}
